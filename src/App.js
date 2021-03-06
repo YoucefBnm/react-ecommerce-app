@@ -32,8 +32,6 @@ class App extends React.Component {
               ...snapshot.data()
             }
           })
-
-          console.log(this.state)
         })
       }
       // check if user is not authenticated
